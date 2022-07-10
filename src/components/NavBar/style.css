@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-log{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(103, 233, 17, 0.575);
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+.head-log h2{
+    margin-left: 100px;
+}
+.head-log nav{
+    display: flex;
+    width: 50%;
+    height: 59px;
+    justify-content: center;
+    align-items: center;
+}
+.head-log nav ul{
+    display: flex;
+}
+.head-log nav ul a{
+    margin-right: 25px;
+    text-align: center;
+    color: white;
+}
+.head-log nav ul a:hover{
+    border-bottom: 2px solid rgb(104, 8, 8);
+    cursor: pointer;
+    transition: 2s;
+}
+.head-log nav button{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 60px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+}

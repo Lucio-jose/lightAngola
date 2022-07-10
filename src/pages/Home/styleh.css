@@ -1,0 +1,19 @@
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/o-distrito-speicherstadt-do-armazem-durante-o-por-do-sol-crepuscular-em-hamburgo-alemanha-armazens-iluminados-no-bairro-hafencity-em-hamburgo_136401-2048.webp);
+    background-size: cover;
+}
+#banner #dica-banner{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(138, 14, 14, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#dica-banner h1{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.342);
+}

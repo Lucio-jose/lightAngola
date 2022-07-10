@@ -1,0 +1,34 @@
+.section-welcome{
+    width: 100%;
+    background-color: rgb(110, 21, 21);
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-welcome div{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+    justify-content: space-between;
+}
+.section-welcome div section h2{
+    margin-bottom: 10px;
+}
+.section-welcome div section span{
+    margin-top: 80px;
+    color: rgb(153, 151, 149);
+}
+.section-welcome div button{
+    background-color: white;
+    border: 1px solid brown;
+    width: 200px;
+    height: 60px;
+    border-radius: 90px;
+}
+#sinoImg{
+    width: 24%;
+}
